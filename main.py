@@ -23,5 +23,5 @@ class MainWindow(tk.Window):
 if __name__ == "__main__":
     ventana = MainWindow()
     ventana.mainloop()
-    
+
 #arctic-kiln-401816:southamerica-east1:mi-primera-instancia
