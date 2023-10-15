@@ -1,0 +1,16 @@
+CREATE TABLE notebooks;
+USE notebooks;
+
+CREATE table pedidos(
+id_pedido INT(10) NOT NULL AUTO_INCREMENT,
+numero INT(10) NOT NULL,
+alumno VARCHAR(100) NOT NULL,
+curso VARCHAR(4) NOT NULL,
+profesor VARCHAR(100) NOT NULL,
+entrega TIME NOT NULL,
+devolucion TIME NOT NULL,
+PRIMARY KEY(id_pedido));
+
+
+# base de datos provisional en lo que alexis termina la suya.
+# Correr en una consulta de heidisql
