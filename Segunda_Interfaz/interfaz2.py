@@ -1,15 +1,13 @@
 import tkinter as tk
-from client.gui_app import Frame, barra_menu
+from client.gui_app import Frame, Login
 
 def main():
     ventana = tk.Tk()
     ventana.title("Netbooks y Pedidos")
     ventana.iconbitmap('img\icono.ico')
     ventana.resizable(0,0)
-    barra_menu(ventana)
-    
+    #login = Login(root = ventana)
     app = Frame(root = ventana)
-
     ventana.mainloop()
     
 
